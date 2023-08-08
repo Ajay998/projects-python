@@ -11,7 +11,6 @@ print("\n\tYou've only ",
       " chances to guess the integer!\n")
 
 count = 0
-
 while count < math.log(upper - lower + 1, 2):
     count += 1
 
